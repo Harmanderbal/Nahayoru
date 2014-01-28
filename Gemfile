@@ -43,3 +43,12 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+#
+#  http://qiita.com/tstomoki/items/17a535ec442a2ab3a5f1
+
+gem "twitter-bootstrap-rails"
+
+gem "paperclip", "~> 3.0"
+
+gem "protected_attributes"
