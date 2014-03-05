@@ -17,7 +17,8 @@
   </div>
   <div class="field">
     <%= f.label :address %><br>
-    <%= f.text_area :address %>
+    <%= f.text_field :address %>
+
   </div>
   <div class="field">
     <%= f.label :tel %><br>
@@ -25,7 +26,17 @@
   </div>
   <div class="field">
     <%= f.label :category %><br>
-    <%= f.text_field :category %>
+    <% f.text_field :category %>
+    <select id="shop_category" name="shop[category]">
+      <option value="居酒屋">居酒屋</option>
+      <option value="bar">bar</option>
+      <option value="キャバクラ">キャバクラ</option>
+      <option value="夜のお店">夜のお店</option>
+    </select>
+  </div>
+  <div class="field">
+    <%= f.label :avatar %><br>
+    <%= f.file_field :avatar %>
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -44,6 +44,17 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+<<<<<<< HEAD
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "twitter-bootstrap-rails"
+=======
+#
+#  http://qiita.com/tstomoki/items/17a535ec442a2ab3a5f1
+
+gem "twitter-bootstrap-rails"
+
+gem "paperclip", "~> 3.0"
+
+gem "protected_attributes"
+>>>>>>> 9c8c0f077ea0603665a2e4ccc93494d561d0de76

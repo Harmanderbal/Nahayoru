@@ -20,5 +20,10 @@
   <%= @shop.category %>
 </p>
 
+<p>
+  <strong>Avatar:</strong>
+  <%= image_tag @shop.avatar %>
+</p>
+
 <%= link_to 'Edit', edit_shop_path(@shop) %> |
 <%= link_to 'Back', shops_path %>
